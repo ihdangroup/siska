@@ -5,7 +5,7 @@ use yii\helpers\Html;
 /** @var yii\web\View $this */
 /** @var siska\models\Wilayah $model */
 
-$this->title = 'Create Wilayah';
+$this->title = 'Tambah Wilayah';
 $this->params['breadcrumbs'][] = ['label' => 'Wilayahs', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
