@@ -47,4 +47,6 @@ return [
         */
     ],
     'params' => $params,
+    'language' => 'id-ID',
+    'timeZone' => 'Asia/Jakarta'
 ];
