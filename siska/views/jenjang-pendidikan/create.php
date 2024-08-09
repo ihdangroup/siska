@@ -5,7 +5,7 @@ use yii\helpers\Html;
 /** @var yii\web\View $this */
 /** @var siska\models\JenjangPendidikan $model */
 
-$this->title = 'Create Jenjang Pendidikan';
+$this->title = 'Tambah Jenjang Pendidikan';
 $this->params['breadcrumbs'][] = ['label' => 'Jenjang Pendidikans', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
