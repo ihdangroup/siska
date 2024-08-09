@@ -3,6 +3,7 @@
 namespace siska\models;
 
 use Yii;
+use yii\helpers\ArrayHelper;
 
 /**
  * This is the model class for table "fakultas".
@@ -57,5 +58,10 @@ class Fakultas extends \yii\db\ActiveRecord
     public function getProdis()
     {
         return $this->hasMany(Prodi::class, ['fakultas_id' => 'id']);
+    }
+    public static function dropdown() {
+        $sql='SELECT id, CONCAT(kode, " - ", nama_fakultas) AS fakultas FROM fakultas';
+        $result = Yii::$app->db->createCommand($sql)->queryAll();
+        return ArrayHelper::map($result, 'id', 'fakultas');
     }
 }
