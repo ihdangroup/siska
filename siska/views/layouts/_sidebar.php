@@ -56,8 +56,8 @@
                         'label' =>'Data Master',
                         'icon' => 'database',
                         'items' => [
-                            ['label' => 'Fakultas', 'icon' => 'university', 'url' => ['/']],
-                            ['label' => 'Prodi', 'icon' => 'building', 'url' => ['/']],
+                            ['label' => 'Fakultas', 'icon' => 'university', 'url' => ['/fakultas']],
+                            ['label' => 'Prodi', 'icon' => 'building', 'url' => ['/prodi']],
                             ['label' => 'Dosen', 'icon' => 'user-tie', 'url' => ['/']],
                             ['label' => 'Mahasiswa', 'icon' => 'user-graduate', 'url' => ['/']],
                             ['label' => 'Staf', 'icon' => 'user', 'url' => ['/']],
