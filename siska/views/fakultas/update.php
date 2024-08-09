@@ -5,10 +5,10 @@ use yii\helpers\Html;
 /** @var yii\web\View $this */
 /** @var siska\models\Fakultas $model */
 
-$this->title = 'Update Fakultas: ' . $model->id;
+$this->title = 'Ubah Fakultas: ' . $model->id;
 $this->params['breadcrumbs'][] = ['label' => 'Fakultas', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->id, 'url' => ['view', 'id' => $model->id]];
-$this->params['breadcrumbs'][] = 'Update';
+$this->params['breadcrumbs'][] = 'Ubah';
 ?>
 <div class="fakultas-update">
 
